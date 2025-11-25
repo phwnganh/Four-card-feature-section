@@ -32,6 +32,8 @@ body {
 
 .header .quote {
   font-size: 14px;
+  margin-top: 8px;
+  color: hsl(212, 6%, 64%);
 }
 
 .main {
