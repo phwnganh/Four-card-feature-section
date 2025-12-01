@@ -57,18 +57,27 @@ body {
 
 .supervisor {
   /* grid-area: 1/1/5/2; */
-  grid-area: 1/1/5/2;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
   border-top: 4px solid hsl(180, 62%, 55%);
 }
 
 .team-builder {
-  /* grid-area: 1/2/3/3; */
+  /* grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3; */
   grid-area: 1/2/3/4;
   border-top: 4px solid hsl(0, 78%, 62%);
 }
 
 .karma {
-  /* grid-area: 3/2/5/3; */
+  /* grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 3; */
   grid-area: 3/2/5/4;
   border-top: 4px solid hsl(34, 97%, 64%);
 }
